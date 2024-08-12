@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO
+    </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<!--  imported poppins font's link from google font -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!--  imported poppins logo's link from boxicons -->
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="first">Nischal's portfolio</div>
+            <div class="two">
+                <ul>
+                    <li><a class="active" href="*">Home</a></li>
+                    <li><a class="active" href="*">About</a></li>
+                    <li><a class="active" href="*">Skills</a></li>
+                    <li><a class="active" href="*">Experience</a></li>
+                    <li><a class="active" href="*">Contact us</a></li>
+                    <!--  to make it clickable -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <script src="portfolio.js"></script>
+    <main>
+        <!--  section one -->
+        <div class="left">    Hi, My name is <span class="yes" >Nischal</span>  
+            <!-- span is called UTILITY CLASS -->
+            <div>  and I am a </div>
+            <span id="element"></span>
+        </div>
+        <!-- created two divs, ek ke andr ek, taki do line me ajaye text -->
+        <div class="right"> 
+            <img src="https://i.pinimg.com/originals/78/5a/1b/785a1b9c359640da6bc9cfe3670b42ba.png" alt="">
+        </div>
+      </main>
+        <hr>
+     
+         <main>
+      <div class="sectiontwo">
+        <div class="about-img">
+            <img src="https://png.pngtree.com/element_our/20200609/ourmid/pngtree-children-s-software-programming-image_2230759.jpg" alt="">
+           </div>
+            <div class="about-text">
+                <h1>About  <span class="me">Me</span> </h1> 
+                
+                <p> <span class="name">I'm Nischal bhardwaj</span> <br>
+                  I'm an  Computer applications student who's currently in third year.
+                I have a cgpa of 8.5 and i am very passionate about web development.
+                Enthusiastic engineering student looking to apply my knowledge and skills in a internship.
+                    Excited to learn and grow in a real-world engineering environment.</p>
+            </div>
+</div> 
+</main>
+     <br>
+   <section class="contact-section"> 
+
+ <div class="contact" id="contact">
+    <div class="contact-text">
+        <h2 class="text-here">Contact <span>Me</span></h2>
+        <h4>Lets work together</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+     At, voluptatibus. Ipsa harum enim nulla? Nesciunt aut ducimus <br>
+     accusantium impedit molestias reprehenderit maiores.
+     <br> Sit nihil voluptatibus, quae explicabo fugit ducimus accusantium?
+    </p>
+        <div class="contact-list">
+            <li><i class='bx bxs-send'>bhardwajnischal2004@gmail.com</i></li>
+            <li><i class='bx bxs-phone'>+91 8287315597</i></li>
+            </div>
+            <div class="contact-icons"></div>
+            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+            <a href=""><i class='bx bxl-linkdin'></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+    </div>
+  <div class="contact-form">
+   <form action="">
+    <input type=""placeholder="Enter Your Name" required>
+    <input type=""placeholder="Enter Your Email" required>
+    <input type=""placeholder="Enter Your Subject" required>
+    <textarea name="" cols="40" rows="10" placeholder="Enter your message" required></textarea>
+    <input type="submit" value="submit" class="send">
+   </form>
+  </div>
+  </div>
+</section> 
+     <footer></footer>
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+     <!-- ye dockins ke usuage me jaake copykra h -->
+     <!--  NOW SEARCH TYPED.JS ON GOGGLE AND COPY IT. YE JS KI TYPING ANIMATION LIBRARY H -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- ye rahi typed.js , copied for github -->
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['College Student', 'Web developer enthusiast'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
